@@ -1,0 +1,259 @@
+* {
+    font-family: "Nunito Sans";
+  }
+  
+  body {
+    background-color: #fafcff;
+  }
+  
+  nav {
+    height: 140px;
+    background-color: #fff;
+    border-radius: 0px 0px 20px 20px;
+  }
+  .navbar a {
+    font-weight: bold;
+    font-size: 29px;
+    color: #6379f4 !important;
+    border-radius: 20px !important;
+  }
+  
+  nav .navbar-toggle {
+    box-shadow: none !important;
+  }
+  
+  .profile .profile-name {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .profile .phone-number {
+    font-weight: normal;
+    font-size: 13px;
+  }
+  .content {
+    margin-top: 40px;
+  }
+  
+  .content .col-3 {
+    border-radius: 25px;
+  }
+  
+  .content .sidebar .dashboard {
+    text-decoration: none;
+    font-size: 18px !important;
+    margin-top: 47px !important;
+    color: #3a3d42;
+  }
+  
+  .content .sidebar .profile div {
+    border-left: 5px solid #6379f4;
+    height: 35px;
+    position: absolute;
+    left: 0;
+  }
+  
+  .content .sidebar .transfer {
+    margin-top: 64px !important;
+    text-decoration: none;
+    color: #3a3d42;
+    font-size: 18px;
+  }
+  .content .sidebar .profile {
+    margin-top: 64px !important;
+    text-decoration: none;
+    color: #6379f4;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .content .sidebar .top-up {
+    margin-top: 64px !important;
+    text-decoration: none;
+    color: #3a3d42;
+    font-size: 18px;
+  }
+  .content .sidebar .logout {
+    margin-top: 65% !important;
+    margin-bottom: 100px;
+    text-decoration: none;
+    color: #3a3d42;
+    font-size: 18px;
+  }
+  
+  .body-area {
+    background: #fff;
+    border-radius: 25px;
+    padding: 30px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  }
+  .body-area h1 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #3a3d42;
+    margin-bottom: 25px;
+  }
+  
+  .body-area .search {
+    position: relative;
+    margin-bottom: 50px;
+  }
+
+  .body-area .icon-search {
+    position: absolute;
+    top: 14px;
+    left: 18px;
+  }
+  
+  .card-profile {
+    background: #ffffff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 22px 0px 13px 20px;
+    margin-bottom: 20px;
+  }
+  
+  .body-area .receiver h4 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #4d4b57;
+    margin-top: 8px !important;
+  }
+  .body-area .receiver p {
+    font-weight: normal;
+    font-size: 16px;
+    color: #7a7886;
+  }
+  
+  .show {
+    outline: hidden;
+    border: hidden;
+  }
+  
+  .top-up .number {
+    font-weight: bold;
+    font-size: 18px;
+    color: #6379f4;
+    margin-right: 25px;
+  }
+  
+  .top-up p {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color: #7a7886;
+  }
+  
+  .person {
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7a7886;
+  }
+  
+  .manage {
+    float: right;
+    padding-top: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #6379f4;
+    cursor: pointer;
+  }
+  
+  footer {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background: #6379f4;
+    margin-top: 35px;
+  }
+  footer .license {
+    font-weight: normal;
+    color: #efefef;
+    font-size: 16px;
+    margin-left: -10px;
+  }
+  footer .contact a {
+    font-weight: 600;
+    font-size: 16px;
+    color: #efefef;
+  }
+  
+
+  .login-container {
+    padding: 0 0 0 30px;
+  }
+  .login h2 {
+    margin-top: 121px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    max-width: 384px;
+    margin-bottom: 30px;
+    margin-left: 12px;
+  }
+  .login p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    max-width: 430px;
+    margin-bottom: 63px;
+    margin-left: 12px;
+    color: rgba(58, 61, 66, 0.6);
+  }
+  
+  .login .email {
+    position: relative;
+  }
+  
+  .login .email input {
+    border: 1.5px solid rgba(169, 169, 169, 0.6);
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    padding: 11px 0px 11px 45px;
+    margin-bottom: 73px;
+    font-weight: normal;
+    font-size: 16px !important;
+    line-height: 23px;
+    box-shadow: none;
+  }
+  
+  .login .email .icon-input {
+    position: absolute;
+    top: 5px;
+  }
+  
+  .login .form-button button {
+    background: #dadada;
+    border-radius: 12px;
+    width: 100%;
+    margin-top: 10px;
+    height: 57px;
+    border: hidden;
+    font-size: 18px;
+    color: #88888f;
+    margin-bottom: 40px;
+  }
+  
+  .login .sign-up p {
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(58, 61, 66, 0.8);
+  }
+  .login .sign-up p a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #6378f4;
+  }
+
+  .form-group,
+  .form-button {
+    margin-top: 3rem;
+    margin-left: 5rem;
+  }
+
+  .icon-input img {
+    margin-right: 3rem;
+  }
