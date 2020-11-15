@@ -9,7 +9,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/changePassword.css" />
+    <link rel="stylesheet" href="assets/css/phone.css" />
   </head>
   <body>
     <nav class="navbar shadow-sm">
@@ -98,69 +98,37 @@
 
         <div class="col-12 col-sm-9" id="area">
           <div class="body-area">
-              <div class="login">
-            <h1>Change Password</h1>
+            <h1>Manage Phone Number</h1>
             <p class="person">
-                You must enter your current password and then <br>
-                type your new password twice.
+                You can only delete the phone number and then <br>
+                you must add another phone number.
             </p>
 
-            <div class="form-group">
-              <div class="form-group password col-lg-8">
-                <input
-                  type="password"
-                  class="form-control border-top-0 border-left-0 border-right-0 rounded-0"
-                  placeholder="Current password"
-                />
-                <div class="icon-input">
-                  <img src="assets/icon/lock.svg" />
+            <div class="row">
+              <div class="col-12">
+                <div class="card-profile">
+                    <div class="row">
+                        <div class="col-9 col-sm-9 col-lg-10 top-up">
+                          <p style="font-size: 16px;
+                          line-height: 22px;">
+                            Primary
+                          </p>
+                            <span style="font-style: normal;
+                            font-weight: bold;
+                            font-size: 22px;
+                            line-height: 30px;">+62 813-9387-7946</span>
+                        </div>
+                        <p class="manage" onclick="window.location.href='manage.html'">
+                            <img src="assets/icon/trash.svg" alt="">
+                        </p>
+                      </div>
                 </div>
-                <div class="eye-crossed">
-                  <img src="assets/icon/eye-crossed.svg" />
-                </div>
-              </div>
-              <div class="form-group password col-lg-8">
-                <input
-                  type="password"
-                  class="form-control border-top-0 border-left-0 border-right-0 rounded-0"
-                  placeholder="New password"
-                />
-                <div class="icon-input">
-                  <img src="assets/icon/lock.svg" />
-                </div>
-                <div class="eye-crossed">
-                  <img src="assets/icon/eye-crossed.svg" />
-                </div>
-              </div>
-              <div class="form-group password col-lg-8">
-                <input
-                  type="password"
-                  class="form-control border-top-0 border-left-0 border-right-0 rounded-0"
-                  placeholder="Repeat new password"
-                />
-                <div class="icon-input">
-                  <img src="assets/icon/lock.svg" />
-                </div>
-                <div class="eye-crossed">
-                  <img src="assets/icon/eye-crossed.svg" />
-                </div>
-              </div>
-
-              <div class="form-button col-lg-8">
-                <button
-                  class="btn btn-primary"
-                  type="submit"
-                  onclick="window.location.href='home.html'"
-                >
-                 Change Password
-                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-</div>
 
     <footer>
       <div class="container">
@@ -184,6 +152,6 @@
 
     <script src="assets/js/jquery-3.5.1.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/login.js"></script>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>

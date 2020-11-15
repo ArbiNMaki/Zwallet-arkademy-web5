@@ -9,7 +9,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/changePassword.css" />
+    <link rel="stylesheet" href="assets/css/changePin.css" />
   </head>
   <body>
     <nav class="navbar shadow-sm">
@@ -98,64 +98,74 @@
 
         <div class="col-12 col-sm-9" id="area">
           <div class="body-area">
-              <div class="login">
-            <h1>Change Password</h1>
+              <div class="pin">
+            <h1>Change Pin</h1>
             <p class="person">
-                You must enter your current password and then <br>
-                type your new password twice.
+               Enter your current 6 digits Zwallet PIN below to <br>
+                continue to the next steps.
             </p>
 
             <div class="form-group">
-              <div class="form-group password col-lg-8">
-                <input
-                  type="password"
-                  class="form-control border-top-0 border-left-0 border-right-0 rounded-0"
-                  placeholder="Current password"
-                />
-                <div class="icon-input">
-                  <img src="assets/icon/lock.svg" />
-                </div>
-                <div class="eye-crossed">
-                  <img src="assets/icon/eye-crossed.svg" />
+                <div class="form-group">
+                  <div class="pin col-xl-8">
+                    <div class="container">
+                      <div class="row justify-content-between">
+                        <div class="form-input-pin">
+                          <input
+                            type="text"
+                            class="form-control pin-verify d-inline"
+                          />
+                          <img src="assets/icon/line.svg" class="input-line" />
+                        </div>
+                        <div class="form-input-pin">
+                          <input
+                            type="text"
+                            class="form-control pin-verify d-inline"
+                          />
+                          <img src="assets/icon/line.svg" class="input-line" />
+                        </div>
+                        <div class="form-input-pin">
+                          <input
+                            type="text"
+                            class="form-control pin-verify d-inline"
+                          />
+                          <img src="assets/icon/line.svg" class="input-line" />
+                        </div>
+                        <div class="form-input-pin">
+                          <input
+                            type="text"
+                            class="form-control pin-verify d-inline"
+                          />
+                          <img src="assets/icon/line.svg" class="input-line" />
+                        </div>
+                        <div class="form-input-pin">
+                          <input
+                            type="text"
+                            class="form-control pin-verify d-inline"
+                          />
+                          <img src="assets/icon/line.svg" class="input-line" />
+                        </div>
+                        <div class="form-input-pin">
+                          <input
+                            type="text"
+                            class="form-control pin-verify d-inline"
+                          />
+                          <img src="assets/icon/line.svg" class="input-line" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-button col-xl-8">
+                    <button
+                      class="btn"
+                      type="submit"
+                      onclick="window.location.href='renewPin.html'"
+                    >
+                      Continue
+                    </button>
+                  </div>
                 </div>
               </div>
-              <div class="form-group password col-lg-8">
-                <input
-                  type="password"
-                  class="form-control border-top-0 border-left-0 border-right-0 rounded-0"
-                  placeholder="New password"
-                />
-                <div class="icon-input">
-                  <img src="assets/icon/lock.svg" />
-                </div>
-                <div class="eye-crossed">
-                  <img src="assets/icon/eye-crossed.svg" />
-                </div>
-              </div>
-              <div class="form-group password col-lg-8">
-                <input
-                  type="password"
-                  class="form-control border-top-0 border-left-0 border-right-0 rounded-0"
-                  placeholder="Repeat new password"
-                />
-                <div class="icon-input">
-                  <img src="assets/icon/lock.svg" />
-                </div>
-                <div class="eye-crossed">
-                  <img src="assets/icon/eye-crossed.svg" />
-                </div>
-              </div>
-
-              <div class="form-button col-lg-8">
-                <button
-                  class="btn btn-primary"
-                  type="submit"
-                  onclick="window.location.href='home.html'"
-                >
-                 Change Password
-                </button>
-              </div>
-            </div>
           </div>
         </div>
       </div>
