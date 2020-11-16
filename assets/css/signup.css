@@ -167,3 +167,41 @@ body {
   text-decoration: none;
   color: #6378f4;
 }
+
+
+
+@media (max-width: 600px) { 
+  .information .container{
+      padding:0 0 0 0;
+  }
+  .sign-up-container{
+      padding:0 0 0 14px;
+  }
+
+  .image img{
+      color: white;
+      margin-top: 5px;
+      margin-bottom: 30px;
+  
+  }
+
+
+  .sign-up h2{
+      margin-top: 40px;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 33px;
+      max-width: 384px;
+      margin-bottom: 30px;
+  }
+
+
+  .sign-up h2{
+      margin-left: 6px; 
+  }
+  .sign-up p{
+      margin-left: 6px;
+  }
+
+}
+

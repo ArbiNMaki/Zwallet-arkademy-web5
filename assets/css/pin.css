@@ -112,3 +112,45 @@ body {
   text-decoration: none;
   color: #6378f4;
 }
+
+
+@media (max-width: 600px) { 
+  .information .container{
+      padding:0 0 0 0;
+  }
+  .success-information{
+      padding:0 0 0 14px;
+  }
+
+  .image img{
+      color: white;
+      margin-top: 5px;
+      margin-bottom: 30px;
+  
+  }
+
+  .success-information img{
+      margin-top: 35px !important;
+  }
+
+  .success-information h2{
+      margin-top: 40px;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 33px;
+      max-width: 384px;
+      margin-bottom: 30px;
+  }
+  .success-information p{
+      margin-bottom: 68px;
+  }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  .success-information img{
+      margin-top: 45px !important;
+  }
+}
+
+
