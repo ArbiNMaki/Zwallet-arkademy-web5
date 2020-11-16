@@ -35,19 +35,19 @@ header.jumbotron button {
   border-radius: 12px;
 }
 
-main section.benefits h2.text-center {
+main section.benefit h2.text-center {
   font-size: 3.5rem;
 }
 
-main section.benefits h2.text-center span {
+main section.benefit h2.text-center span {
   color: #6379f4;
 }
 
-main section.benefits .row .col-md-4 {
+main section.benefit .row .col-md-4 {
   margin-top: 2rem;
 }
 
-main section.benefits .row .col-md-4 p {
+main section.benefit .row .col-md-4 p {
   line-height: 0.5;
 }
 
@@ -115,10 +115,6 @@ main section.features .row .col-md-6 ul.features li p:first-child span {
   color: #6379f4;
 }
 
-main section.benefits .row .col-md-4 {
-  margin-top: 0;
-}
-
 main section.money-transfered h2 {
   padding: 2rem;
 }
@@ -148,6 +144,29 @@ footer .container {
   color: #6379f4;
 }
 
-footer div.container {
-  text-align: left;
+
+@media (min-width: 360) and (max-width: 768px) {
+
+  header.jumbotron h2 {
+    font-size: 4rem;
+  }
+
+  main section.benefit .row .col-md-4 {
+    margin-top: 0;
+  }
+
+  main section.money-transfered h2 {
+    padding: 2rem;
+  }
+
+  main section.features .row .col-md-6 img.features-bg {
+    width: 460px;
+    position: relative;
+    left: 0;
+    display: block;
+  }
+  
+  main section.features .row .col-md-6 h2 {
+    text-align: left;
+  }
 }
