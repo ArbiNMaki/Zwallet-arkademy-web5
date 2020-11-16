@@ -256,8 +256,6 @@ margin-top: 40px;
     border: hidden;
 }
 
-
-
 footer{
     padding-top: 24px;
     padding-bottom:24px;
@@ -276,109 +274,8 @@ footer .contact a{
     color:#EFEFEF;
 }
 
-
-
 .modal .modal-body .pin .input-line{
     position: absolute;
     top: 92px;
     left: 26px;
-}
-
-
- /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { 
-
-    .btn{
-        width: 100%;
-
-    }
-
-
-    .body-area .credit{
-        font-weight: bold;
-
-        font-size: 35px;
-        color: #fff;
-    }
-    .body-area .number{
-        margin-top: 20px;
-        font-weight: normal;
-        font-size: 15px;
-        color: #E0E0E0;
-    }
-
-    .content .sidebar .logout{
-        margin-top: 64px !important;
-        text-decoration: none;
-        color: #3A3D42;
-    
-    }
-    .body-area .receiver h4{
-        font-weight: bold;
-        font-size: 16px;
-        color: #4D4B57;
-    }
-    .body-area .receiver p{
-        font-weight: normal;
-        font-size: 14px;
-        color: #7A7886;
-    }
-
-
-
-    .modal .modal-body .pin input{
-        width: 46px;
-        height: 60px;
-    }
-    .modal .modal-body .pin .input-line{
-        position: absolute;
-        top: 90px;
-        left: 22px;
-    }
-
-    .sidebar_menu{
-        display: none;
-    }
-}
-/* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) { 
-    .content .sidebar .logout{
-        margin-top: 64px !important;
-        text-decoration: none;
-        color: #3A3D42;
-    
-    }
-    .payment-history .money-minus{
-        transform: translateX(0px);
-    }
-    .btn{
-        width: 100%;
-
-    }
- }
-
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) { 
-    .receiver{
-        transform: translateX(-40px);
-    }
-    .btn{
-        width: 100%;
-
-    }
- }
-
- /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) { 
-    .receiver{
-        transform: translateX(-20px);
-    }
-
- }
-
- @media (min-width: 1200px) { 
-    .receiver{
-        transform: translateX(-40px);
-    }
-    
 }

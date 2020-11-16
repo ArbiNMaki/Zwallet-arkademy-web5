@@ -147,7 +147,7 @@ body {
 }
 
 
-@media (max-width: 575.98px) { 
+@media (max-width: 600px) { 
   .information .container{
       padding:0 0 0 0;
   }
@@ -171,7 +171,6 @@ body {
       max-width: 384px;
       margin-bottom: 30px;
   }
-
 
   .login h2{
       margin-left: 6px; 

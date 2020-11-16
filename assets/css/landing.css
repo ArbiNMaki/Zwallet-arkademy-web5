@@ -35,31 +35,31 @@ header.jumbotron button {
   border-radius: 12px;
 }
 
-main section.benefit h2.text-center {
+main .choose h2.text-center {
   font-size: 3.5rem;
 }
 
-main section.benefit h2.text-center span {
+main .choose h2.text-center span {
   color: #6379f4;
 }
 
-main section.benefit .row .col-md-4 {
+main .choose .row .col-md-4 {
   margin-top: 2rem;
 }
 
-main section.benefit .row .col-md-4 p {
+main .choose .row .col-md-4 p {
   line-height: 0.5;
 }
 
-main section.brands {
+main .brands {
   background-color: #eeeeee;
 }
 
-main section.money-transfered {
+main .money-transfered {
   padding: 3rem 0 3rem 0;
 }
 
-main section.money-transfered h2 {
+main .money-transfered h2 {
   width: max-content;
   padding: 1rem;
   background-color: #eeeeee;
@@ -69,41 +69,41 @@ main section.money-transfered h2 {
   font-size: 2rem;
 }
 
-main section.money-transfered h3 {
+main .money-transfered h3 {
   font-size: 2.5rem;
 }
 
-main section.money-transfered h3 span {
+main .money-transfered h3 span {
   color: #6379f4;
 }
 
-main section.money-transfered p {
+main .money-transfered p {
   line-height: 2;
 }
 
-main section.features {
+main .features {
   background-color: #eeeeee;
   overflow: hidden;
 }
 
-main section.features .row .col-md-6 h2 {
+main .features .row .col-md-6 h2 {
   font-size: 3rem;
   text-align: center;
 }
 
-main section.features .row .col-md-6 h2 span {
+main .features .row .col-md-6 h2 span {
   color: #6379f4;
 }
 
-main section.features .row .col-md-6 img.features-bg {
+main .features .row .col-md-6 img.features-bg {
   display: none;
 }
 
-main section.features .row .col-md-6 ul.features {
+main .features .row .col-md-6 ul.features {
   list-style: none;
 }
 
-main section.features .row .col-md-6 ul.features li {
+main .features .row .col-md-6 ul.features li {
   border-radius: 0.5rem;
   padding: 1rem;
   margin-top: 1rem;
@@ -111,15 +111,15 @@ main section.features .row .col-md-6 ul.features li {
   box-shadow: 0.5rem 0.5rem 2rem #00000020;
 }
 
-main section.features .row .col-md-6 ul.features li p:first-child span {
+main .features .row .col-md-6 ul.features li p:first-child span {
   color: #6379f4;
 }
 
-main section.money-transfered h2 {
+main .money-transfered h2 {
   padding: 2rem;
 }
 
-main section.features .row .col-md-6 img.features-bg {
+main .features .row .col-md-6 img.features-bg {
   width: 846px;
   height: 1015px;
   top: -90px;
@@ -141,28 +141,26 @@ footer .container {
 }
 
 
-@media (min-width: 360) and (max-width: 768px) {
+@media (min-width: 600px) {
 
   header.jumbotron h2 {
     font-size: 4rem;
   }
 
-  main section.benefit .row .col-md-4 {
+  main .choose .row .col-md-4 {
     margin-top: 0;
   }
 
-  main section.money-transfered h2 {
+  main .money-transfered h2 {
     padding: 2rem;
   }
 
-  main section.features .row .col-md-6 img.features-bg {
-    width: 460px;
+  main .features .row .col-md-6 img.features-bg {
+    width: 350;
     position: relative;
-    left: 0;
-    display: block;
   }
   
-  main section.features .row .col-md-6 h2 {
+  main .features .row .col-md-6 h2 {
     text-align: left;
   }
 }

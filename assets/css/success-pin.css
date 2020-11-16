@@ -78,7 +78,7 @@ body {
   margin-bottom: 40px;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 600px) {
   .information .container {
     padding: 0 0 0 0;
   }
